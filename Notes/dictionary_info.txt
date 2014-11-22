@@ -1,0 +1,22 @@
+A list of all the dictionaries availible on my system as of 02/25/05:
+
+/Library/Dictionaries/New Oxford American Dictionary.dict
+/Library/Dictionaries/Oxford American Writers Thesaurus.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Basic.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Character.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Colloquial.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Context.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_LastResort.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/J_Numeral.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/OsakaDialect.dict
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/部品の共通な漢字を検索
+/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/Support/関連文字に変換
+
+The first 2 Dictionarys are the only ones we are really interested in, they respond well to the DCMxxx methods unlike the other dictionaries.
+They have 4 'properties':
+	dbas
+	mtnc
+	list
+	perm
+	
+I couldn't seem to get any information associated with these tags using DCMDictionaryGetPropertyData()

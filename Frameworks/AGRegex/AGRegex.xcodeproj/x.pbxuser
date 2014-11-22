@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 658A2E03067AB99300421F51 /* Automator */;
+		activeTarget = 17727F650A73F9E000DA181B /* AGRegex */;
+		addToTargets = (
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 658A2DD0067AB96600421F51 /* Code sense */;
+		executables = (
+			658A2E03067AB99300421F51 /* Automator */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 191098435;
+			PBXWorkspaceStateSaveDate = 191098435;
+		};
+		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 952}}";
+			sepNavSelRange = "{788, 0}";
+			sepNavVisRect = "{{0, 176}, {862, 572}}";
+			sepNavWindowFrame = "{{117, 60}, {907, 686}}";
+		};
+	};
+	177276760A73A3B700DA181B /* ColorTransformer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{161, -156}, {907, 686}}";
+		};
+	};
+	177276770A73A3B700DA181B /* ColorTransformer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{353, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{184, 60}, {907, 686}}";
+		};
+	};
+	17727D450A73C60700DA181B /* AGRegex.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 8568}}";
+			sepNavSelRange = "{14725, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{299, 60}, {907, 686}}";
+		};
+	};
+	17727D7A0A73C8B800DA181B /* pcre.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{71, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{49, 60}, {907, 686}}";
+		};
+	};
+	17727E730A73F0B800DA181B /* libpcre */ = {
+		activeExec = 0;
+	};
+	17727EB40A73F2BA00DA181B /* pcre.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 4947}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{339, 60}, {907, 686}}";
+		};
+	};
+	17727EBE0A73F2BA00DA181B /* pcre_compile.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {795, 89794}}";
+			sepNavSelRange = "{57307, 11}";
+			sepNavVisRect = "{{0, 31373}, {795, 172}}";
+		};
+	};
+	17727EC90A73F2BA00DA181B /* pcre_study.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {795, 8942}}";
+			sepNavSelRange = "{6737, 6}";
+			sepNavVisRect = "{{0, 3289}, {795, 172}}";
+		};
+	};
+	17727ECA0A73F2BA00DA181B /* pcre_tables.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 3298}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{15, 55}, {907, 686}}";
+		};
+	};
+	17727ECC0A73F2BA00DA181B /* pcre_ucp_searchfuncs.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {679, 2992}}";
+			sepNavSelRange = "{2282, 54}";
+			sepNavVisRect = "{{0, 754}, {679, 146}}";
+		};
+	};
+	17727ECE0A73F2BA00DA181B /* pcre_version.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 1105}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{15, 55}, {907, 686}}";
+		};
+	};
+	17727F280A73F5D000DA181B /* AGRegex.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{243, 60}, {907, 686}}";
+		};
+	};
+	17727F650A73F9E000DA181B /* AGRegex */ = {
+		activeExec = 0;
+	};
+	17C4AB170A75475D0079FE3B /* README.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 612}}";
+			sepNavSelRange = "{408, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{82, 60}, {907, 686}}";
+		};
+	};
+	17C4AB190A7547820079FE3B /* LICENCE */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 1173}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 509}, {862, 572}}";
+			sepNavWindowFrame = "{{173, 60}, {907, 686}}";
+		};
+	};
+	17C4AB1A0A7547820079FE3B /* README */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 8993}}";
+			sepNavSelRange = "{17220, 6}";
+			sepNavVisRect = "{{0, 6361}, {862, 572}}";
+			sepNavWindowFrame = "{{15, 55}, {907, 686}}";
+		};
+	};
+	17C4AC750A768A3E0079FE3B /* French */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 901}}";
+			sepNavSelRange = "{774, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{121, 60}, {907, 686}}";
+		};
+	};
+	17C4AD7E0A76C4D00079FE3B /* AutomatorRegex No framework */ = {
+		activeExec = 0;
+	};
+	17C4AE590A7791D00079FE3B /* AGRegex LICENCE */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{102, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{86, 60}, {907, 686}}";
+		};
+	};
+	17F3E0710A7412D100222EE3 /* index.html */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{58, 60}, {907, 686}}";
+		};
+	};
+	6518174F067A8D39005BD953 /* AutomatorRegex.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 572}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{155, 60}, {907, 686}}";
+		};
+	};
+	65181750067A8D39005BD953 /* AutomatorRegex.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 2431}}";
+			sepNavSelRange = "{1300, 0}";
+			sepNavVisRect = "{{0, 0}, {862, 572}}";
+			sepNavWindowFrame = "{{33, 59}, {907, 686}}";
+		};
+	};
+	658A2DCF067AB96600421F51 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.subversion;
+	};
+	658A2DD0067AB96600421F51 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	658A2E03067AB99300421F51 /* Automator */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 0;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-action \"Replace With Regex.action\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 658A2E04067AB99300421F51 /* Automator.app */;
+		libgmallocEnabled = 0;
+		name = Automator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	658A2E04067AB99300421F51 /* Automator.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = Automator.app;
+		path = /Applications/Automator.app;
+		sourceTree = "<absolute>";
+	};
+	8D5B49AC048680CD000E48DA /* AutomatorRegex */ = {
+		activeExec = 0;
+	};
+	8D5B49B7048680CD000E48DA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {862, 1768}}";
+			sepNavSelRange = "{1683, 0}";
+			sepNavVisRect = "{{0, 1196}, {862, 572}}";
+			sepNavWindowFrame = "{{162, 60}, {907, 686}}";
+		};
+	};
+}

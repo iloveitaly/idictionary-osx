@@ -1,0 +1,4 @@
+03/1/06. Get all words starting with a, retrieve word string & XML data. ~6.4s. Debug build.
+03/2/06. Get all words starting with a, retrieve word string & XML data. Process XML data and write to one big file. ~12s.
+02/2/06. Get all words starting with a, retrieve word string & XML data. Process XML data. Using Dictionary widget plugin. ~48s.
+Using UTF-8 encoding does not effect run-time significantly

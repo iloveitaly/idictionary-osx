@@ -1,0 +1,19 @@
+<b>V1.2</b>
+<ul>
+	<li>Added ability to choose the file type for the dictionary creation</li>
+	<li>In addition to the previous "iPod Notes" file format, you can now choose a "iPod Contacts" file type. This eliminates the file limit restrictions in previous versions of iDictionary, allowing users to view the full dictionary and thesaurus on their iPod.</li>
+	<li>Updated to Sparkle V1.1</li>
+	<li>Fixed a bug where some licenses would validate and provide no user feedback</li>
+	<li>Some minor UI improvements along with a couple minor bug fixes</li>
+</ul>
+
+<b>V1.1</b>
+<ul>
+	<li>iDictionary Lite has been merged into iDictionary, this means that if you don't own a license you <b><u>can still use iDictionary</u></b>; but, your dictionaries will be restricted to letters a-z.</li>
+	<li>Added "Created Dictionaries" window. You can now view and select all previously created dictionaries to easily copy them to your iPod. The "Created Dictionaries" window also features a "Reveal in Finder" function which allows you to see where the selected dictionary is located on your computer.</li>
+	<li>User interface improvements to the dictionary & iPod selection tables</li>
+	<li>"Under-the-hood" improvements to the iDictionary code base.</li>
+</ul>
+	
+<b>V1.0</b>
+<ul><li>Initial Release</li></ul>

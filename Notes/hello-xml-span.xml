@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic-list>
+  <dic bundle-id='com.apple.NOAD.dict'>
+    <span xmlns='http://www.w3.org/1999/xhtml' class='ent' xmlns:o='http://oup.dataformat.com/doc/OUP_DTD_Dictionary.html' sortkey='hello'>
+      <span class='hwGrp'>
+        <span class='hw'>hel
+          <span class='hsb'></span>lo
+        </span>
+        <span class='pronGrp'>
+          <span class='pr' type='US'>|hÉ™ËˆlÅ; heËˆlÅ; ËˆhelÅ|</span>
+        </span>
+        <span class='varGrp'> (also
+          <span class='v'> hal
+            <span class='hsb'></span>lo
+          </span>or
+          <span class='provLabel'>
+            <span class='r'>chiefly</span>Brit.
+          </span>
+          <span class='v'> hul
+            <span class='hsb'></span>lo
+          </span>)
+        </span>
+      </span>
+      <span class='SB'>
+        <span class='prelim'>
+          <span class='ps'>exclamation</span>
+        </span>
+        <span class='sense'>
+          <span class='def'>used as a greeting</span>
+          <span class='ex'>
+            <span class='lbl'>:</span>hello there, Katie!
+          </span>
+          <span class='specUse'>
+            <span class='MS'>
+              <span class='lbl'>â€¢</span>
+              <span class='def'>used to begin a telephone conversation</span>
+              <span class='ex'>
+                <span class='lbl'>:</span>Hello? Connor speaking.
+              </span>
+            </span>
+            <span class='MS'>
+              <span class='lbl'>â€¢</span>
+              <span class='provLabel'>Brit.</span>
+              <span class='def'>used to express surprise</span>
+              <span class='ex'>
+                <span class='lbl'>:</span>hello, what's all this then?
+              </span>
+            </span>
+            <span class='MS'>
+              <span class='lbl'>â€¢</span>
+              <span class='def'>used as a cry to attract someone's attention</span>
+              <span class='ex'>
+                <span class='lbl'>:</span>â€œHello below!â€ he cried.
+              </span>
+            </span>
+            <span class='MS'>
+              <span class='lbl'>â€¢</span>
+              <span class='pronGrp'>
+                <span class='pr' type='US'>|hÉ™ËˆlÅ; heËˆlÅ|</span>
+              </span>
+              <span class='gramGrp'>[often pronounced with a risingâ€“falling intonation pattern and a prolonged final vowel]</span>
+              <span class='def'>expressing sarcasm or anger</span>
+              <span class='ex'>
+                <span class='lbl'>:</span>hello! did you even get what the play was about?
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+      <span class='SB'>
+        <span class='prelim'>
+          <span class='ps'>noun</span>
+          <span class='infGrp'> (
+            <span class='syntax'>pl.</span>
+            <span class='inf'>-los</span>)
+          </span>
+        </span>
+        <span class='sense'>
+          <span class='def'>an utterance of â€œhelloâ€; a greeting</span>
+          <span class='ex'>
+            <span class='lbl'>:</span>she was getting polite nods and hellos from people.
+          </span>
+        </span>
+      </span>
+      <span class='SB'>
+        <span class='prelim'>
+          <span class='ps'>verb</span>
+          <span class='infGrp'> (
+            <span class='inf'>-loes</span>,
+            <span class='inf'>-loed</span>)
+          </span>
+          <span class='gramGrp'> [
+            <span class='syntax'>intrans.</span>]
+          </span>
+        </span>
+        <span class='sense'>
+          <span class='def'>say or shout â€œhelloâ€; greet someone.</span>
+        </span>
+      </span>
+      <span class='etymBlock'>
+        <span class='lbl'>ORIGIN</span>
+        <span class='date'>late 19th cent.</span>: variant of earlier
+        <span class='italic'>hollo</span>; related to
+        <span class='xrefGrp'>
+          <span class='xref'>
+            <span class='x'>holla</span>
+          </span>
+        </span>.
+      </span>
+      <span class='usage'>
+        <span class='lbl'>USAGE</span>
+        <span class='para'>The pronunciation given above for the sense 'expressing sarcasm or anger' shows an unusual instance in English of intonation conveying meaning. Another example would be the lengthening of the 'oÅ' vowel in the expression â€œexcuse meâ€ to indicate sarcasm.</span>
+      </span>
+    </span>
+  </dic>
+</dic-list>

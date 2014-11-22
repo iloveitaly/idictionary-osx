@@ -1,0 +1,51 @@
+/* Error messages for alert panels */
+"Error Creating Dictionary" = "Error Creating Dictionary";
+"You must select one dictionary to use" = "You must select one dictionary to use";
+
+"Dictionary Already Exists" = "Dictionary Already Exists";
+"%@ is already present on your iPod, do you want to overwrite it?" = "%@ is already present on your iPod, do you want to overwrite it?";
+
+"Bad Min & Max Word Lengths" = "Bad Min/Max Word Lengths";
+"Your minimum word length must be less than your maximum word length. Your minimum word length cannot be zero." = "Your minimum word length must be less than your maximum word length";
+
+"No iPod Selected" = "No iPod Selected";
+"You have not selected an iPod copy the dictionary to. If you do not select an iPod the dictionary will still be created for future use." = "You have not selected an iPod copy the dictionary to. If you do not select an iPod the dictionary will still be created for future use.";
+"Select an iPod" = "Select an iPod";
+
+"Dictionary Already Created" = "Dictionary Already Created";
+"A dictionary with these settings has previously been created. Choose an iPod to copy the dictionary onto." = "A dictionary with these settings has previously been created. Choose an iPod to copy the dictionary onto.";
+
+"Corrupt Application" = "Corrupt Application";
+"You have a corrupt application, please download the latest version from our website. Would you like to go to the download page now?" = "You have a corrupt application, please download the latest version from our website. Would you like to go to the download page now?";
+
+"Too Many Files!" = "Too Many Files!";
+"The iPod can hold a maximum of 1000 files, the dictionary that was just created has %i files. You will not be able to access part of the dictionary. Try using different filter options to reduce the number of files." = "The iPod can hold a maximum of 1000 files, the dictionary that was just created has %i files. You will not be able to access part of the dictionary. Try using different filter options to reduce the number of files.";
+
+/* status messages for the status sheet & sheet button */
+"Dictionary files successfully copied to iPod!" = "Dictionary files successfully copied to iPod!";
+"Copying files to iPod..." = "Copying files to iPod...";
+"Stop Dictionary Creation" = "Stop Dictionary Creation";
+"Unable to copy dictionary files to iPod" = "Unable to copy dictionary files to iPod";
+"Dictionary successfully created" = "Dictionary successfully created";
+
+/* License Errors */
+"Buy iDictionary" = "Buy iDictionary";
+"iDictionary requires you a license to use. You can use the Demo version (dictionary is limited to letters a-d), or buy the full version of iDictionary now. If you already purchased a license, click \"Load License\" to load your license file." = "iDictionary requires you a license to use. You can use the Demo version (dictionary is limited to letters a-d), or buy the full version of iDictionary now. If you already purchased a license, click \"Load License\" to load your license file.";
+"Load License" = "Load License";
+"Buy License" = "Buy License";
+"Use Demo" = "Use Demo";
+"Contact Support" = "Contact Support";
+"Invalid License File" = "Invalid License File";
+"The license file you have chosen is invalid. If you know you have a valid license file, please contact customer support and we will resolve this issue. If you haven't yet purchased a license file, you can do so at our web-site." = "The license file you have chosen is invalid. If you know you have a valid license file, please contact customer support and we will resolve this issue. If you haven't yet purchased a license file, you can do so at our web-site.";
+"iDictionary has been successfully licensed." = "iDictionary has been successfully licensed.";
+
+/* main window titles */
+"iPod Dictionary Creation" = "iPod Dictionary Creation";
+"iPod Dictionary Creation: Creating Dictionary" = "iPod Dictionary Creation: Creating Dictionary";
+
+/* general words */
+"Yes" = "Yes";
+"No" = "No";
+"Ok" = "Ok";
+"Continue Anyway" = "Continue Anyway";
+"Success!" = "Success!";

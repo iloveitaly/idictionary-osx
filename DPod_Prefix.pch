@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'DPod' target in the 'DPod' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import <ApplicationServices/ApplicationServices.h>
+
+	#import "shared.h"
+#endif

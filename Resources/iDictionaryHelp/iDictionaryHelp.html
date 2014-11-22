@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="AppleTitle" content="iDictionary Help" />
+		<title>iDictionary Help</title>
+		<style type="text/css">
+		body {
+			font-family: "Lucida Grande", Verdana, Helvetica, sans-serif;
+			font-size: 76%; /* font sizing in ems, baby. if you want to change anything, just change this.*/
+			text-align: left;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #c33234;
+			border-bottom: 1px dotted #828282
+		}
+		
+		.content {
+			margin-left: 30px;
+		}
+		
+		a:hover {
+			color: #a30912;
+			border-bottom: 1px solid #828282;
+		}
+		
+		img {
+			border-style: solid;
+			border-color: #919191;
+			border-width: 1px;
+			margin: 10px;
+		}
+		
+		table {
+			margin: 10px;
+			text-align: center;
+		}
+		
+		table th, table td {
+			padding: 5px;
+			border-bottom-style: solid;
+			border-bottom-width: 1px;
+			border-bottom-color: #919191;
+		}
+		
+		table th {color:#a30912;}
+		
+		h1, h2, h3, h4 {	
+			color: #a30912;
+			font-size: 1.5em;
+			margin: .5em 0;
+		}
+		
+		h4 {font-size:1.15em;}
+		
+		h2 {
+			font-size: 1.9em;
+		}
+		
+		h1 {
+			font-size: 2.2em;
+		}
+		
+		hr {
+			background-color: #bb494f;
+			border-color: #bb494f;
+			border-style: solid;
+		}
+		</style>
+	</head>
+	<body>
+		<center><h1>iDictionary Help</h1></center>
+		<!-- TOC -->
+		<h3>Topics</h3>
+		<div class="content" style="line-height:2;">
+			<a href="#creatingdictionary">Creating A Dictionary</a>
+			<div class="content">
+				<a href="#choosesource">Choosing a Source and Destination</a><br />
+				<a href="#fileconfiguration">File Type Configuration</a><br />
+				<a href="#filteroptions">Filter Options</a><br />
+				<a href="#createbutton">The Create Button</a><br />
+			</div>
+			<a href="#createddictionaries">Using Created Dictionaries</a>
+			<div class="content">
+				<a href="#howdictsstored">How Dictionaries Are Stored</a><br />
+				<a href="#createdwindow">Created Dictionaries Window</a><br />
+			</div>
+			<a href="#onipod">Using a Dictionary on Your iPod</a><br />
+			<a href="#support">Solving Problems</a>
+			<div class="content">
+				<a href="#faq">FAQ</a><br />
+				<a href="#contactsupport">Technical Support</a>
+			</div>
+		</div>
+		<h3>Conventions In This Document</h3>
+		<div class="content">
+		For the sake of simplicity a dictionary is the same as a thesaurus in this document, so everything said about a dictionary also applies to a thesaurus.
+		</div>
+
+		<!-- Creating a dictionary help section start -->
+		<h2>Creating A Dictionary</h2>
+		<hr />
+		<div class="content">
+			Creating a dictionary for your iPod is a very simple three step process.
+			
+			<a name="choosesource" id="choosesource"></a>
+			<h3>Choosing a Source and Destination</h3>
+			<div class="content">
+				The first step is to choose the source dictionary (in most cases this is either a dictionary or thesaurus) and the destination iPod.
+				Simply click on the dictionary you want to use in the "Dictionaries" table, and the iPod you want the dictionary to be copied to in the "iPods" table.
+				<p><img src="images/choose_source.png" alt="iDictionary Source Tables" /></p>
+				If you don't have your iPod connected to your computer right now, you can create the dictionary now and copy it to your iPod later.
+			</div>
+
+			<a name="fileconfiguration" id="fileconfiguration"></a>
+			<h3>File Type Configuration</h3>
+			<div class="content">
+				New in iDictionary version 1.2 is the ability to change the file type of the dictionary that you create.
+				You can change the file type using the pop-up menu pictured below.
+				<p><img src="images/file_type.png" alt="File Type Configuration" /></p>
+				There are two file type options, "iPod Contacts" and "iPod Notes".
+				When using iPod Contacts there is no file limit, but all the dictionary files will appear as contacts and are not organized in any hierarchal fashion.
+				When using iPod Notes the dictionary will be organized in a hierarchal fashion, but there is a file limit of 1000 possible preventing you from viewing both a dictionary and thesaurus.
+				<p>Since Contact files have no hierarchal structure, instead being organized alphabetically, viewing both a dictionary and thesaurus on your iPod in contact file format can be almost impossible.
+				iDictionary provides a way to workaround this problem by prefixing your dictionary and thesaurus files with different strings allowing you to differentiate between the dictionary and thesaurus files in the iPod contacts list.
+				If you want to specify a prefix for your dictionary/thesaurus you can do so using the "Contact Name Prefix" field pictured above.</p>
+			</div>
+			
+			<a name="filteroptions" id="filteroptions"></a>
+			<h3>Choosing Filter Options</h3>
+			<div class="content">
+				Since the iPod has a limited amount of files it can view, iDictionary provides you with a wide array of filtering options that allow you to customize your dictionary to save space by excluding words you dont think you'll need.
+				<p><img src="images/filter_options.png" alt="iDictionary Filter Options" /></p>
+				The following is a quick description of each option and how it effects dictionary creation:
+				<div class="content">
+					<h4>Min Word Length</h4>
+					The minimum word length field allows you to specify a minimum length a word must be to be included in the dictionary.
+					This minimum length must be less than the maximum length.
+					
+					<h4>Max Word Length</h4>
+					The maximum word length field allows you to specify a minimum length a word must be to be included in the dictionary. 
+					You can specify 0 if you don't want to have a minimum word length. 
+					The max word length must be greater than the minimum word length if the max word length is not 0.
+					
+					<h4>Use Chat Slang</h4>
+					Uses chat slang shortcuts whenever possible in place of the real words. 
+					Heres a table outlining what words are replaced with what shortcuts:
+					<table cellspacing="0">
+						<tr>
+							<th>Word</th>
+							<th>Replacement</th>
+						</tr>
+						<tr>
+							<td>are</td>
+							<td>r</td>
+						</tr>
+						<tr>
+							<td>you</td>
+							<td>u</td>
+						</tr>
+						<tr>
+							<td>be</td>
+							<td>b</td>
+						</tr>
+						<tr>
+							<td>why</td>
+							<td>y</td>
+						</tr>
+					</table>
+					
+					<h4>Allow Phrases</h4>
+					Allows words containing spaces to be included in the dictionary. 
+					For instance, the word "hidden agenda" is normally excluded from the dictionary, but with 'Allow phrases' checked "hidden agenda" will be included in the dictionary.
+					
+					<h4>Allow Abbreviations</h4>
+					Allows words containing periods to be included in the dictionary. 
+					For instance, "a.m." is usually excluded from the dictionary, but with 'Allow abbreviations' checked "a.m." will be included in the dictionary.
+					In a future version of iDictionary words that contain all uppercase letters will also be considered abbreviations, but as of now they are not.
+					
+					<h4>Allow Hyphenated Words</h4>
+					Allows words containing hyphens to be included in the dictionary.
+					The word "a-frame" is usually excluded from the dictionary, but with 'Allow hyphenated words' checked "a-frame" will be included in the dictionary.
+					
+					<h4>Allow Proper Nouns</h4>
+					Allows proper nouns, words starting with an upper-case letter, to be included in the dictionary.
+					The word "Dickens" is usually excluded from the dictionary, but with 'Allow proper nouns' checked "Dickens" will be included in the dictionary.
+					
+					<h4>Allow Contractions</h4>
+					Allows contractions, words containing an apostrophe, to be included in the dictionary.
+					The word "wouldn't" would usually be excluded from the dictionary, but with 'Allow contractions' checked "wouldn't" will be included in the dictionary.
+					
+					<h4>Show Word Variations</h4>
+					Many words in the dictionary have very similar meanings, iDictionary finds these words and groups them together. 
+					For instance, the dictionary definitions for the words "waitpersons", "waitron", "waitrons", and "waitperson" are the same.
+					Without 'Show word variations' selected iDictionary only keeps one of the words to save on space. 
+					When 'Show word variations' is checked iDictionary finds a common root between the words to show all the 'word variations'.
+					For example, the 'word variation' version of the words listed above would look like this: wait[persons/ron/rons/person].
+					In a future version of iDictionary there will be the option to show the word variations, but not list common variations (like ing, and ed).
+				</div>
+			</div>
+
+			<a name="createbutton" id="createbutton"></a>
+			<h3>The Create Button</h3>
+			<div class="content">
+				The last step of the process in creating a dictionary for your iPod is very simple, just hit the create button!
+				If you don't have an iPod connected &amp; chosen, iDictionary will create the dictionary and store it for copying to your iPod at a later time.
+				If you do have your iPod connected &amp; chosen, iDictionary will create the dictionary (if its not already previously created) and copy it to your iPod's "Notes" folder allowing you to use a dictionary on your iPod!
+				The following two screenshots show the dictionary being created, and the dictionary being copied to your iPod.
+				<p><img src="images/dictionary_creation.png" alt="Dictionary Creation in Progress" /></p>
+				<p><img src="images/copy_to_ipod.png" alt="Dictionary Being Copied to iPod" /></p>
+			</div>
+		</div>
+		<!-- creating a dictionary end -->
+
+		<!-- using created dictionaries start -->
+		<a name="createddictionaries" id="createddictionaries"></a>
+		<h2>Using Created Dictionaries</h2>
+		<hr />
+		<div class="content">
+			<a name="howdictsstored" id="howdictsstored"></a>
+			<h3>How Dictionaries Are Stored</h3>
+			<div class="content">
+				All dictionaries and thesauruses are stored in iDictionaries "Application Support Folder" located at: /Users/Your Name/Library/Application Support/iDictionary.
+				Each dictionary you create is stored in a folder with the prefix "dict" followed by a number, the contents of the dictionary are simply text files, you can copy them to any other device that can read plain text files.
+				You can easily access created dictionaries using the "Created Dictionaries" window.
+			</div>
+
+			<a name="createdwindow" id="createdwindow"></a>
+			<h3>Created Dictionaries Window</h3>
+			<div class="content">
+				The Created Dictionaries window allows you to view and manage previously created dictionaries.
+				The Created Dictionaries window can be accessed by clicking on the "Created Dictionaries" menu item under the "Window" menu.
+				Clicking "Select Dictionary" will configure the Dictionary Creation window to mirror the settings of the dictionary selected in the Created Dictionaries window (double clicking on a created dictionary is the table view will also accomplish the same thing).
+				Clicking "Reveal In Finder" button will reveal the selecting dictionary's data folder in a new Finder window (pressing ⌘+R will also accomplish the same thing).
+				You can also delete the a created dictionary by pressing ⌘+D or clicking the "Delete Dictionary" menu item under the "File" menu.
+				<p><img src="images/created_dictionaries.png" /></p>
+			</div>
+		</div>
+		<!-- using created dictionaries end -->
+
+		<!-- using dictionary on iPod start -->
+		<a name="onipod" id="onipod"></a>
+		<h2>Using a Dictionary on Your iPod</h2>
+		<hr />
+		<div class="content">
+			Using the dictionary on your iPod is very simple. To get to your dictionary or thesaurus simply navigate "Notes" section of your iPod.
+			This is located under the "Extras" menu. After clicking on "Notes" your iPod's screen should look something like this:
+			<p><img src="images/notes_menu.jpeg" alt="Note Menu on the iPod" /></p>
+			Choose the dictionary that you want to view a word under, once you choose the dictionary you will presented with a list of folders going from A to Z.
+			This is sort of like a normal dictionary, all the words starting with a are the under the A folder, and in the A folder there are a bunch of files whose title represent the range of words that are contained in the file, just like a page in a normal dictionary.
+			<p><img src="images/a-z-listing.jpeg" alt="A-Z Folder Listing on the iPod" /><img src="images/m-pages.jpeg" alt="All the pages for the letter M" /></p>
+			The find the file that contains the word you want to look up, click on the file, and scroll through the file till you find it.
+			<p><img src="images/m-word.jpeg" alt="" /></p>
+		</div>
+		<!-- using dictionary on ipod end -->
+
+		<a name="support" id="support"></a>
+		<h2>Solving Problems</h2>
+		<hr />
+		<div class="content">
+			<a name="faq" id="faq"></a>
+			<h3>FAQ</h3>
+			<div class="content">
+				<h4>Q. When I try to look at the Dictionary on my iPod I get a "Notes Loading" message, what do I do?</h4>
+				<b>A</b>. The "Notes Loading" message is present only while the iPod is 'pre-loading' the iPod's notes, it doesn't take long and it's only done when you change the notes on the iPod.
+				<br /><br />
+				
+				<h4>Q. I can't view the whole dictionary and/or thesaurus!</h4>
+				<b>A</b>. This is a limitation of the iPod's Notes software, I'm working on new optimizations to reduce the amount of files needed for the dictionary &amp; thesaurus.
+				The dictionary's and thesaurus's that iDictionary creates will always require a significant number of files, if you want to get around the limited capabilities of the built in iPod Note reader I suggest checking out <a href="http://ipodlinux.org/">iPodLinux</a>.
+				<br /><br />New in version 1.2 is the ability to choose a "iPod Contacts" file format, this will eliminate any file limitations and allow you to view the dictionary and/or thesaurus in full on your iPod.
+				<br /><br />
+
+				<h4>Q. Most of the way through loading the dictionary, I got a "Too Many Files!" alert panel. It stated that the iPod can only hold a maximum of 1000 files and the dictionary contained 1513. It stated that I will no be able to access part of the dictionary. I've got lots of free space on the iPod, so how might this be fixed so I can access the complete dictionary?</h4>
+				<b>A</b>. Unfortunately the iPod Note reader has a limit of 1000 4 kilobyte files (a total of 4 megabytes worth of notes), so no matter how much space you have on your iPod cant view anymore than 1000 files. You can reduce the amount of files the dictionary takes up by deselecting the 'Allow ...' checkboxes, increasing the minimum word length, and specifying a maximum word length.
+				<br /><br />
+
+				<h4>Q. I purchased iDictionary a couple days ago and still haven't received a license! What gives?!</h4>
+				<b>A</b>. You should of received a confirmation email with a license attached.
+				If you did not receive the email search your spam box for a message titled "iDictionary License".
+				If you can't find the email in your spam box shoot me an <a href="mailto:&#111;&#114;&#100;&#101;&#114;&#115;&#64;&#109;&#97;&#98;&#119;&#101;&#98;&#100;&#101;&#115;&#105;&#103;&#110;&#46;&#99;&#111;&#109;">email</a> containing your pay-pal "Receipt ID" and I'll send you a new license.
+				Sorry for any inconvenience this may have caused!
+				<br /><br />
+
+				<h4>Q. I purchased iDictionary, received my license, but I can not seem to load the license! Help!</h4>
+				<b>A</b> The most likely cause is somehow the license got corrupted by your email client (Web-based email clients sometimes cause this problem).
+				<a href="mailto:&#111;&#114;&#100;&#101;&#114;&#115;&#64;&#109;&#97;&#98;&#119;&#101;&#98;&#100;&#101;&#115;&#105;&#103;&#110;&#46;&#99;&#111;&#109;">Contact me</a> and I'll help resolve the issue as soon as possible.
+				<br /><br />
+
+				<h4>Q. You can't just sell the Oxford Dictionary/Thesaurus! That is illegal!</h4>
+				<b>A.</b> You're right, unauthorized selling of the Oxford Dictionary/Thesaurus is illegal.
+				It is for exactly this reason that iDictionary does not contain any part or data of the Oxford dictionary or thesaurus.
+				iDictionary uses whatever dictionary or thesauruses contained in the users system to create a dictionary/thesaurus for the iPod.
+				There is no direct reference to the Oxford dictionary or thesaurus in iDictionary; it uses whatever valid .dict bundles are available & registered on the user's system.
+				<br /><br />
+			</div>
+			<a name="contactsupport" id="contactsupport"></a>
+			<h3>Technical Support</h3>
+			If you have any problems using iDictionary please don't hesitate to <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#112;&#114;&#111;&#115;&#105;&#116;&#45;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;&#46;&#99;&#111;&#109;">Contact Us</a> and we will get back to you ASAP.
+		</div>
+		<p>&nbsp;</p>
+		<div style="text-align:center;color:#c33234;">&copy; 2006 <a href="http://prosit-software.com/">Prosit Software</a></div>
+	</body>
+</html>

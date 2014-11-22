@@ -1,0 +1,95 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                contactSupport = id; 
+                goToHomePage = id; 
+                licenseAgreement = id; 
+                licenseInformation = id; 
+                loadLicense = id; 
+                openCreatedDictionaries = id; 
+                openPreferences = id; 
+                purchaseNow = id; 
+                putchaseLater = id; 
+                reportBug = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oBuyButton = NSButton; 
+                oBuyMenuItem = NSMenuItem; 
+                oBuyWindow = NSWindow; 
+                oCreationWindow = NSWindow; 
+                oLicenseDate = NSTextField; 
+                oLicenseEmail = NSTextField; 
+                oLicenseInfo = NSMenuItem; 
+                oLicenseInfoWindow = NSWindow; 
+                oLicenseName = NSTextField; 
+                oLoadLicense = NSMenuItem; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AppSupportController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {deleteDictionary = id; revealInFinder = id; selectDictionary = id; }; 
+            CLASS = CreatedDictionariesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oController = NSArrayController; oMainColumn = NSTableColumn; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {closeSheet = id; createDictionary = id; stopCreation = id; }; 
+            CLASS = DictionaryCreator; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oAbbrev = NSButton; 
+                oChatSlang = NSButton; 
+                oContractions = NSButton; 
+                oDefinitionVariations = NSButton; 
+                oDictionariesController = NSArrayController; 
+                oFileType = NSPopUpButton; 
+                oHyphen = NSButton; 
+                oIPodController = NSArrayController; 
+                oMainWindow = NSWindow; 
+                oMaxWordLen = NSTextField; 
+                oMinWordLen = NSTextField; 
+                oNoun = NSButton; 
+                oPhrase = NSButton; 
+                oPrefix = NSTextField; 
+                oProgress = NSProgressIndicator; 
+                oProgressSheet = NSWindow; 
+                oSheetButton = NSButton; 
+                oStatus = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {"" = id; deleteDictionary = id; revealInFinder = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = InterfaceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                oDictColumn = NSTableColumn; 
+                oIPodColumn = NSTableColumn; 
+                oMainWindow = NSWindow; 
+                oMaxWordLength = NSTextField; 
+                oMinWordLength = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = MABDictionary; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = OAGradientTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

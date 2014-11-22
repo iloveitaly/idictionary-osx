@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dic-list>
+  <dic bundle-id='com.apple.NOAD.dict'>
+	<o:ent xmlns:o='http://oup.dataformat.com/doc/OUP_DTD_Dictionary.html' sortkey='hello'>
+	  <o:hwGrp>
+		<o:hw>hel
+		  <o:hsb />lo
+		</o:hw>
+		<o:pronGrp>
+		  <o:pr type='US'> |h\u0259\u02c8l\u014d; he\u02c8l\u014d; \u02c8hel\u014d|</o:pr>
+		  <o:pr type='US_IPA'> |h\u0259\u02cclo\u028a|</o:pr>
+		  <o:pr type='US_IPA'> |h\u025b\u02cclo\u028a|</o:pr>
+		  <o:pr type='UK_IPA'> |h\u0259\u02ccl\u0259\u028a|</o:pr>
+		  <o:pr type='UK_IPA'> |h\u025b-|</o:pr>
+		</o:pronGrp>
+		<o:varGrp> (also
+		  <o:v> hal
+			<o:hsb />lo 
+		  </o:v>or
+		  <o:provLabel>
+			<o:r> chiefly </o:r>Brit. 
+		  </o:provLabel>
+		  <o:v> hul
+			<o:hsb />lo
+		  </o:v>) 
+		</o:varGrp>
+	  </o:hwGrp>
+	  <o:SB> 
+		<o:prelim>
+		  <o:ps> exclamation </o:ps>
+		</o:prelim>
+		<o:sense>
+		  <o:def> used as a greeting </o:def> <!-- heres the target definition -->
+		  <o:ex>
+			<o:lbl>:  </o:lbl>hello there, Katie! 
+		  </o:ex>
+		  <o:specUse>
+			<o:MS>
+			  <o:lbl>  \u2022 </o:lbl>
+			  <o:def> used to begin a telephone conversation </o:def>
+			  <o:ex>
+				<o:lbl>:  </o:lbl>Hello? Connor speaking. 
+			  </o:ex>
+			</o:MS>
+			<o:MS>
+			  <o:lbl>  \u2022 </o:lbl>
+			  <o:provLabel> Brit. </o:provLabel>
+			  <o:def> used to express surprise </o:def>
+			  <o:ex>
+				<o:lbl>:  </o:lbl>hello, what's all this then? 
+			  </o:ex>
+			</o:MS>
+			<o:MS>
+			  <o:lbl>  \u2022 </o:lbl>
+			  <o:def> used as a cry to attract someone's attention </o:def>
+			  <o:ex>
+				<o:lbl>:  </o:lbl>\u201cHello below!\u201d he cried. 
+			  </o:ex>
+			</o:MS>
+			<o:MS>
+			  <o:lbl>  \u2022 </o:lbl>
+			  <o:pronGrp>
+				<o:pr type='US'> |h\u0259\u02c8l\u014d; he\u02c8l\u014d|</o:pr>
+			  </o:pronGrp>
+			  <o:gramGrp> [often pronounced with a rising\u2013falling intonation pattern and a prolonged final vowel] </o:gramGrp>
+			  <o:def> expressing sarcasm or anger </o:def>
+			  <o:ex>
+				<o:lbl>:  </o:lbl>hello! did you even get what the play was about? 
+			  </o:ex>
+			</o:MS>
+		  </o:specUse>
+		</o:sense>
+	  </o:SB>
+	  <o:SB>
+		<o:prelim>
+		  <o:ps> noun </o:ps>
+		  <o:infGrp> (
+			<o:syntax> pl. </o:syntax>
+			<o:inf> -los</o:inf>)
+		  </o:infGrp>
+		</o:prelim>
+		<o:sense>
+		  <o:def> an utterance of \u201chello\u201d; a greeting </o:def>
+		  <o:ex>
+			<o:lbl>:  </o:lbl>she was getting polite nods and hellos from people. 
+		  </o:ex>
+		</o:sense>
+	  </o:SB>
+	  <o:SB>
+		<o:prelim>
+		  <o:ps> verb </o:ps>
+		  <o:infGrp> (
+			<o:inf> -loes</o:inf>,
+			<o:inf> -loed</o:inf>)
+		  </o:infGrp>
+		  <o:gramGrp> [
+			<o:syntax> intrans. </o:syntax>] 
+		  </o:gramGrp>
+		</o:prelim>
+		<o:sense>
+		  <o:def> say or shout \u201chello\u201d; greet someone. </o:def>
+		</o:sense>
+	  </o:SB>
+	  <o:etymBlock>
+		<o:lbl>ORIGIN  </o:lbl>
+		<o:date>late 19th cent.</o:date>: variant of earlier
+		<o:italic> hollo</o:italic>; related to
+		<o:xrefGrp>
+		  <o:xref>
+			<o:x> holla </o:x>
+		  </o:xref>
+		</o:xrefGrp>.
+	  </o:etymBlock>
+	  <o:usage>
+		<o:lbl>USAGE  </o:lbl>
+		<o:para> The pronunciation given above for the sense 'expressing sarcasm or anger' shows an unusual instance in English of intonation conveying meaning. Another example would be the lengthening of the 'o\u014d' vowel in the expression \u201cexcuse me\u201d to indicate sarcasm.</o:para>
+	  </o:usage>
+	</o:ent>
+  </dic>
+</dic-list>

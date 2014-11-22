@@ -1,0 +1,35 @@
+First run with time reporting, there was a couple of uncaught exceptions. Debug Build
+2006-02-23 16:09:26.916 DictPod[10175] Dictionary creation took 1849 seconds (30.816668 minutes)
+2006-02-23 16:09:26.916 DictPod[10175] The dictionary files creation for each letter took (on average) about 71 seconds
+
+First clean run with custom MABDictionary implementation. Release build, no optimization on the helper
+2006-03-07 12:40:19.984 DPod[11636] Dictionary creation took 229 seconds (3.82 minutes)
+2006-03-07 12:40:19.984 DPod[11636] The dictionary file creation for each letter took (on average) about 8 seconds
+
+Second run with custom MABDictionary implementation. Release build, full optimization on the helper
+2006-03-07 13:00:06.089 DPod[11719] Dictionary files for letter Z took 1 seconds to create
+2006-03-07 13:00:06.089 DPod[11719] Dictionary creation took 215 seconds (3.58 minutes)
+
+Third run with custom MABDictionary implementation. Release build, full optimization on the helper
+2006-03-07 15:12:21.846 DPod[13314] Dictionary creation took 217 seconds (3.62 minutes)
+2006-03-07 15:12:21.846 DPod[13314] The dictionary file creation for each letter took (on average) about 8 seconds
+
+Custom AGRegex build w/PCRE 5.0. No optimization on AGRegex build, UTF8 string check in PCRE. Word variations on.
+2006-04-01 14:10:58.801 iDictionary[2347] Dictionary creation took 227 seconds (3.78 minutes)
+2006-04-01 14:10:58.804 iDictionary[2347] The dictionary file creation for each letter took (on average) about 8 seconds
+2006-04-01 14:10:58.823 iDictionary[2347] The dictionary has 192577 records. Each entry (word) in the dictionary took about 0.001179 seconds to process
+
+Custom AGRegex build w/PCRE 5.0. No optimization on AGRegex build, no UTF8 string check in PCRE. Word variations on.
+2006-04-01 14:18:38.885 iDictionary[2477] Dictionary creation took 228 seconds (3.80 minutes)
+2006-04-01 14:18:38.885 iDictionary[2477] The dictionary file creation for each letter took (on average) about 8 seconds
+2006-04-01 14:18:38.897 iDictionary[2477] The dictionary has 192577 records. Each entry (word) in the dictionary took about 0.001184 seconds to process
+
+Custom AGRegex build w/PCRE 5.0. Full optimization on AGRegex build, no UTF8 string check in PCRE. Word variations on.
+2006-04-01 14:28:29.888 iDictionary[2698] Dictionary creation took 229 seconds (3.82 minutes)
+2006-04-01 14:28:29.888 iDictionary[2698] The dictionary file creation for each letter took (on average) about 8 seconds
+2006-04-01 14:28:29.926 iDictionary[2698] The dictionary has 192577 records. Each entry (word) in the dictionary took about 0.001189 seconds to
+
+Custom AGRegex build w/PCRE 5.0. Full optimization on AGRegex build, no UTF8 string check in PCRE. Word variations on. Run without Xcode.
+2006-04-02 09:43:45.697 iDictionary[3472] Dictionary creation took 223 seconds (3.72 minutes)
+2006-04-02 09:43:45.697 iDictionary[3472] The dictionary file creation for each letter took (on average) about 8 seconds
+2006-04-02 09:43:45.709 iDictionary[3472] The dictionary has 192577 records. Each entry (word) in the dictionary took about 0.001158 seconds to process
